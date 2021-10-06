@@ -3,7 +3,7 @@
 ```
 <?php
 // --------
-// 1 Resize 
+// 1 Resize In Parameter url
 // --------
 
 
@@ -33,7 +33,7 @@ imagewebp($image_p, null, $_GET['quality']);
 
 
 // --------
-// 2 Resize 
+// 2 Resize In file
 // --------
 
 
