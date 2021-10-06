@@ -1,8 +1,7 @@
 # php-resize
 
-<?php
-
 ```
+<?php
 // --------
 // 1 Resize 
 // --------
@@ -27,8 +26,6 @@ $image = imagecreatefromwebp($_GET['image']);
 imagecopyresampled($image_p, $image, 0, 0, 0, 0, $_GET['width'], $_GET['height'], $width_orig, $height_orig);
 // Output
 imagewebp($image_p, null, $_GET['quality']);
-
-```
 
 
 // --------
@@ -57,5 +54,5 @@ imagewebp($image_p, null, $_GET['quality']);
 // imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
 // // Output
 // imagewebp($image_p, null, 100);
-
 ?>
+```
